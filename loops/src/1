@@ -1,0 +1,29 @@
+fn main() {
+    println!("Hello, world!");
+    // If loop 
+    let a = true;
+    if a {
+        println!(" A is True");
+    }else
+    {
+        println!("B is True");
+    }
+
+    // while loop
+
+    let b = 5;
+        while b < 5 {
+            println!("{b}");
+            b=-1;
+    }
+
+    // For loop
+
+   let c = [6,7,8,9];
+
+   for i in c {
+       println!("{i}");
+       i+=1;
+    }
+
+}
